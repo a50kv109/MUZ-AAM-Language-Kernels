@@ -15,15 +15,20 @@ This roadmap governs the incremental evolution of the `Language Kernels Collecti
 
 ---
 
-## Phase 2: Lexical Stress & Metrical Foundations (Planned)
-- [ ] **Lexical Stress Dictionary Interface**:
-  - Design lightweight dictionary lookup interface for mobile dynamic stress in Ukrainian.
-  - Distinguish dictionary-verified stress positions from rule-based vowel heuristics.
-- [ ] **Metrical Template Modeling**:
-  - Formalize Kolomyika (4+4+6 / 14-syllable) and Dumy metrical patterns in machine-readable schema.
-  - Formalize Italian hendecasyllable (*endecasillabo*) stress patterns (accents on 4th/10th or 6th/10th syllables).
+## Phase 2: Lexical Stress & Metrical Foundations (In Progress — Contracts Integrated)
+- [x] **Lexical Stress Dictionary Interface Contract**:
+  - Integrated `ILexicalStressDictionary` interface (`shared/interfaces/lexical_stress.ts`).
+  - Formalized provenance tracking (`dictionary`, `expert_review`, `corpus`, `rule_based`, `unknown`), ambiguity preservation, and zero-based vowel indexing.
+- [x] **Metrical Template Schema Contract**:
+  - Integrated `MetricalTemplate` declarative contract (`shared/interfaces/metrical_templates.ts`).
+  - One-based syllable position schema with `draft` / `source_documented` / `expert_reviewed` / `empirically_validated` evidence levels.
+  - Added illustrative unvalidated schema example (`examples/metrical-template.example.json`).
+- [ ] **Empirical Dictionaries & Culture-Specific Templates** (Pending):
+  - Ingestion of verified dictionary entries for Ukrainian mobile dynamic stress.
+  - Formalization of specific tradition templates (Kolomyika 14-syllable, Dumy, Italian hendecasyllable) backed by traceable academic sources.
 - [ ] **Knowledge Verification**:
   - Independent validation of Ukrainian song rhythmic models against academic ethnomusicological corpora.
+
 
 ---
 

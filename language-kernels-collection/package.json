@@ -5,7 +5,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "test": "tsx tests/shared/engines/syllable_analyzer.test.ts",
+    "test": "tsx tests/shared/engines/syllable_analyzer.test.ts && tsx tests/shared/interfaces/contracts_phase2.test.ts",
     "typecheck": "tsc --noEmit",
     "verify": "npm run typecheck && npm test"
   },

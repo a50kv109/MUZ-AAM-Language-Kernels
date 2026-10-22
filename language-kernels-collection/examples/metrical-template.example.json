@@ -1,0 +1,22 @@
+{
+  "templateId": "EXAMPLE-NOT-VALIDATED-001",
+  "languageCode": "und",
+  "name": "Illustrative line pattern",
+  "traditionOrDomain": "example only",
+  "description": "A structural example demonstrating the schema; it is not a claim about any real poetic tradition.",
+  "linePatterns": [
+    {
+      "patternId": "line-pattern-1",
+      "syllableCount": { "min": 4, "max": 4 },
+      "positions": [
+        { "syllablePosition": 1, "expectedStress": "unstressed" },
+        { "syllablePosition": 2, "expectedStress": "stressed" },
+        { "syllablePosition": 3, "expectedStress": "unstressed" },
+        { "syllablePosition": 4, "expectedStress": "optional" }
+      ]
+    }
+  ],
+  "evidenceStatus": "draft",
+  "sourceReferences": [],
+  "knownLimitations": ["Illustrative schema fixture only; not a validated metrical template."]
+}

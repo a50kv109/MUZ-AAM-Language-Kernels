@@ -6,9 +6,10 @@
 
 ## 1. Current scope
 
-The repository contains shared TypeScript contracts, a Ukrainian orthographic syllable-counting heuristic, a capability registry, language-specific knowledge inventories, tests, and architectural documentation.
+The repository contains shared TypeScript contracts (including Phase 2 lexical stress dictionary and declarative metrical template contracts), a Ukrainian orthographic syllable-counting heuristic, a capability registry, language-specific knowledge inventories, tests, and architectural documentation.
 
-The Ukrainian strategy counts vowel letters. It is not a phonetic syllabifier, stress detector, poetic meter engine, translation engine, or music-text interpretation engine.
+The Ukrainian strategy counts vowel letters. It is not a phonetic syllabifier, stress detector, poetic meter engine, translation engine, or music-text interpretation engine. The Phase 2 contracts (`ILexicalStressDictionary`, `MetricalTemplate`) are schema and interface definitions; they do not introduce an executable verifier or stress inference engine.
+
 
 ## 2. Verification state
 

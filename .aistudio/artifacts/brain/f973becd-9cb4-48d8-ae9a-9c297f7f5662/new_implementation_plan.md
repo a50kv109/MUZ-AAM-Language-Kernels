@@ -35,10 +35,14 @@ Governed by the **Knowledge Before Implementation** architectural standard:
 - [x] Implement deterministic Ukrainian syllable analyzer with strict edge-case unit assertions.
 - [x] Complete architectural documentation and validation policies.
 
-### Phase 2: Lexical Stress & Metrical Modeling (Planned)
-- [ ] Interface definition for lexical stress lookup dictionaries (Ukrainian mobile dynamic stress).
-- [ ] Formal schema for metrical templates (Kolomyika 14-syllable, Dumy, Italian hendecasyllable).
+### Phase 2: Lexical Stress & Metrical Modeling (Contracts Integrated, Data Ingestion Pending)
+- [x] Interface definition for lexical stress lookup dictionaries (`ILexicalStressDictionary` in `shared/interfaces/lexical_stress.ts`).
+- [x] Declarative schema for metrical templates (`MetricalTemplate` in `shared/interfaces/metrical_templates.ts`).
+- [x] Unit test suite covering boundaries, ambiguity, coordinate separation, and runtime validation (`tests/shared/interfaces/contracts_phase2.test.ts`).
+- [ ] Empirical data ingestion for Ukrainian mobile dynamic stress dictionary.
+- [ ] Culture-specific templates (Kolomyika 14-syllable, Dumy, Italian hendecasyllable) with academic citations.
 - [ ] Cross-verification against academic ethnomusicological and versification corpora.
+
 
 ### Phase 3: Music Notation & Text–Music Alignment (Planned)
 - [ ] Mapping Italian musical vocabulary to SMuFL glyphs and MusicXML direction types.

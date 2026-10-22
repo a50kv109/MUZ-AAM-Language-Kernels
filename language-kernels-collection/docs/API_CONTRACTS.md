@@ -199,3 +199,78 @@ interface TranslateResponse {
   }[];
 }
 ```
+
+---
+
+## 8. Provider Contract: `ILexicalStressDictionary`
+
+Contract for lexical stress lookup providers. Defined in `/shared/interfaces/lexical_stress.ts`.
+This is an interface contract only; it does not implement a dictionary, prediction engine, or scoring algorithm.
+
+### Key Types
+```typescript
+type StressEvidenceKind = 'dictionary' | 'expert_review' | 'corpus' | 'rule_based' | 'unknown';
+type StressLookupStatus = 'found' | 'not_found' | 'ambiguous' | 'unsupported';
+
+interface StressPosition {
+  vowelIndex: number; // 0-based vowel index
+  characterOffset?: number;
+}
+
+interface LexicalStressEntry {
+  languageCode: string;
+  lemma: string;
+  surfaceForm?: string;
+  stressPositions: StressPosition[];
+  evidenceKind: StressEvidenceKind;
+  sourceId?: string;
+  sourceReference?: string;
+  reviewedBy?: string;
+  notes?: string[];
+}
+
+interface ILexicalStressDictionary {
+  readonly dictionaryId: string;
+  readonly version: string;
+  lookup(request: LexicalStressLookupRequest): LexicalStressLookupResult;
+}
+```
+
+---
+
+## 9. Declarative Schema: `MetricalTemplate`
+
+Declarative schema for metrical templates. Defined in `/shared/interfaces/metrical_templates.ts`.
+Stores structural pattern information. It is not an executable verifier.
+
+### Key Types
+```typescript
+type MetricalPositionKind = 'stressed' | 'unstressed' | 'optional' | 'unknown';
+type TemplateEvidenceStatus = 'draft' | 'source_documented' | 'expert_reviewed' | 'empirically_validated';
+
+interface MetricalPosition {
+  syllablePosition: number; // 1-based syllable position
+  expectedStress: MetricalPositionKind;
+  note?: string;
+}
+
+interface MetricalLinePattern {
+  patternId: string;
+  syllableCount?: { min: number; max: number };
+  positions: MetricalPosition[];
+  variants?: string[];
+}
+
+interface MetricalTemplate {
+  templateId: string;
+  languageCode: string;
+  name: string;
+  traditionOrDomain?: string;
+  description: string;
+  linePatterns: MetricalLinePattern[];
+  evidenceStatus: TemplateEvidenceStatus;
+  sourceReferences: string[];
+  knownLimitations: string[];
+}
+```
+
