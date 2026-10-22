@@ -1,0 +1,6 @@
+{
+  "name": "Italian Music-Poetry Kernel Integration",
+  "description": "Integration of Italian music and poetry language kernels into the AAM framework, incorporating computational analysis from Ukrainian Poetry Studio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

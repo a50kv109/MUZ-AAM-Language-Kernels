@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software in research or industrial systems, please cite it as below."
+authors:
+  - family-names: Artsybashev
+    given-names: Andrey Alekseevich
+    email: a50kv109@gmail.com
+    affiliation: "Kharkiv, Ukraine"
+title: "Universal Language Kernel Harvester and Combinatorial Language Core (CLC-v2.5)"
+version: 2.5.0
+date-released: 2026-03-12
+url: "https://github.com/aam-research/universal-language-kernel-harvester"
+identifiers:
+  - type: other
+    value: "AAM-V1_ARTSYBASHEV_UA_KHARKIV_AIANALYSIS"
+    description: "Standard Industrial Linguistic Module Identifier"
+keywords:
+  - linguistics
+  - "natural language processing"
+  - "AAM-V1"
+  - "TDI"
+  - "Panini"
+  - "Georgian"
+  - "Etruscan"
+  - "Voynich"
+  - "Bell Fiber"
+license: MIT

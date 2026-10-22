@@ -1,0 +1,16 @@
+# ============================================================
+# LangCore Builder / AAM-V1 Orchestrator
+# Python Dependencies Specification
+# ============================================================
+#
+# 1. CORE MODULES (python/aam_core.py, python/georgian_core.py,
+#    python/panini_core.py, python/bell_fiber.py):
+#    100% Autonomous — Zero external packages required.
+#    Runs on standard library (Python >= 3.8).
+#
+# 2. EXPORTED MULTI-KERNEL & TOPOLOGICAL MODULES
+#    (multi_kernel_code.py, hodge_integration.py, pragmatic_integration.py):
+#    Feature Dual-Mode execution:
+#      - Operates out-of-the-box on Python Standard Library.
+#      - (Optional) Installing numpy enables accelerated C-level matrix operations:
+numpy>=1.22.0

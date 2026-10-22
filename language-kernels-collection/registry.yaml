@@ -1,0 +1,42 @@
+kernels:
+  italian:
+    name: Italian Language Kernel
+    version: 1.0.0
+    status: active
+    capabilities:
+      translate: verified
+      analyze_poetry: draft
+    modules:
+      music_literacy:
+        name: Italian Music Literacy Kernel
+        path: languages/italian/engineering/music_literacy_terms.md
+      poetics:
+        name: Italian Poetics & Versification
+        path: languages/italian/engineering/poetics_versification_terms.md
+  ukrainian:
+    name: Ukrainian Language Kernel
+    version: 0.1.0-alpha
+    status: planned
+    modules:
+      linguistics:
+        name: Ukrainian Linguistics
+        path: languages/ukrainian/linguistics/prosody.md
+      poetics:
+        name: Ukrainian Poetics
+        path: languages/ukrainian/poetics/poetic_forms.md
+      culture:
+        name: Ukrainian Cultural Context
+        path: languages/ukrainian/culture/cultural_context.md
+      song:
+        name: Ukrainian Song Patterns
+        path: languages/ukrainian/song/rhythmic_patterns.md
+      audit:
+        name: Reuse Assessment & Evidence Audit
+        path: languages/ukrainian/audit/evidence_audit.md
+
+# Capability Status Definitions:
+# - declared: registered but not verified as implemented
+# - implemented: implementation exists but needs verification
+# - verified: implementation passed documented checks
+# - experimental: experimental implementation with known limitations
+# - planned: future capability, not currently available

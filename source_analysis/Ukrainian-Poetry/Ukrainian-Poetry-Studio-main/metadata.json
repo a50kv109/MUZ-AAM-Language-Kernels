@@ -1,0 +1,5 @@
+{
+  "name": "Ukrainian Rhyme Studio",
+  "description": "An advanced AI-powered platform for generating, analyzing, and correcting Ukrainian rhymed texts using Gemini. Supports various metric profiles and styles from classical to contemporary.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Universal Language Kernel Harvester",
+  "description": "Automated assembly of language kernels using AAM-V2.1 methodology. Supports Structural, Mixed/Corpus, and Experimental Acoustic methodologies.",
+  "requestFramePermissions": []
+}
