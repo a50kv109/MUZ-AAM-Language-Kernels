@@ -1,73 +1,63 @@
 # Testing & Evidence Policy
 
-## 1. Core Principle: Evidence-Backed Claims
+## 1. Core principle
 
-In accordance with the **Knowledge Before Implementation** architectural standard, no module or engine within the `Language Kernels Collection` may be marked as `verified` without verifiable, reproducible evidence:
-1. **Knowledge Claims**: Must cite authoritative academic or standard sources (e.g., Open Music Theory v2, Treccani, Beltrami, Shevchenko Institute of Literature).
-2. **Computational Engines**: Must be backed by automated test suites in `/tests/` with strict assertions (no non-asserted console logs).
-3. **Experimental Heuristics**: Must explicitly document their assumptions, algorithmic bounds, and edge cases.
+A claim is only as strong as its evidence. `Knowledge Before Implementation` applies both to knowledge records and executable code.
 
----
+- **Knowledge record present** means a concept has been entered in an inventory. It does not prove the concept or its cited source has been independently reviewed.
+- **Source reviewed** means a reviewer has checked the source and recorded what it supports.
+- **Implemented** means executable behavior exists.
+- **Tested** means the relevant automated assertions ran successfully in a named environment.
+- **Verified** is reserved for a narrowly defined claim whose required evidence is recorded and reproducible.
 
-## 2. Validation Status Tiers
+Do not mark a whole knowledge inventory `verified` merely because its entries contain a `Source` field. Do not mark an operation `verified` merely because an interface or registry entry exists.
 
-| Tier | Status | Verification Criteria |
-| :--- | :--- | :--- |
-| **0** | `planned` | Proposed feature or module in roadmap; no implementation or data yet. |
-| **1** | `declared` | Interface or vocabulary entry registered in specifications; implementation not yet verified. |
-| **2** | `experimental` | Usable implementation functioning under documented constraints or heuristics. |
-| **3** | `implemented` | Concrete implementation completed; undergoing formal assertion testing. |
-| **4** | `verified` | Concrete implementation passes 100% of automated unit tests and schema validations. |
+## 2. Capability status vocabulary
 
----
+| Status | Meaning | Minimum evidence |
+| --- | --- | --- |
+| `planned` | Intended future work; not available | Roadmap entry |
+| `declared` | Contract or capability is registered, but implementation is not established | Interface or registry declaration |
+| `implemented` | Executable implementation exists; validation is incomplete | Source file and implementation reference |
+| `experimental` | Executable behavior exists with documented heuristics or known limits | Source, limitations, and at least basic tests |
+| `verified` | A specific implementation claim passed its defined reproducible checks | Test command, environment, assertions, and result recorded |
 
-## 3. Test Suites Snapshot
+`verified` is claim-specific. Passing the current syllable analyzer tests does not verify translation, poetic meter, stress detection, musical interpretation, or the Italian knowledge inventory.
 
-### Suite: `tests/shared/engines/syllable_analyzer.test.ts`
-- **Target**: `shared/engines/uk_syllable_strategy.ts` (`UkOrthographicStrategy` v0.2.0)
-- **Framework**: Node.js strict assertion library (`node:assert/strict`)
-- **Status**: **PASSED** (7 sub-suites, 30+ assertions)
+## 3. Reproducible package checks
 
-#### Coverage Matrix:
-1. **Empty & Whitespace Inputs**:
-   - `""` -> `0` syllables, `[]` ambiguous tokens.
-   - `"   \t \n  "` -> `0` syllables, `[]` ambiguous tokens.
-2. **Standard Ukrainian Lexicon**:
-   - Monosyllabic, disyllabic, and polysyllabic words (`вода`, `поле`, `Україна`, `соловейко`, `пісня`, `думка`).
-3. **Orthographic Modifiers**:
-   - Apostrophe separation (`м'ясо`, `п'ять`, `з'явитися`, `сім'я`).
-   - Soft sign / palatalization markers (`день`, `тінь`, `ніч`, `мальовничий`).
-4. **Hyphenated Compounds**:
-   - Multi-stem words (`будь-ласка`).
-5. **Multi-Word Poetic Verses & Punctuation**:
-   - Shevchenko's line: *"Реве та стогне Дніпр широкий,"* -> exact count `9` syllables.
-   - Quoted verse: *«Думи мої, думи мої!»* -> exact count `8` syllables.
-6. **Non-Vocalic Tokens (Numbers & Punctuation)**:
-   - Pure digits (`12345 2026`) -> ignored (0 syllables, not ambiguous).
-   - Pure punctuation (`... --- !!! ??? ,, ;:`) -> ignored.
-   - Embedded numbers: *"У 2026 році народилася пісня."* -> exact count `10` syllables.
-7. **Foreign Tokens & Ambiguity Detection**:
-   - Pure Latin strings (`hello world`) -> `0` Ukrainian syllables, flagged in `ambiguous_tokens: ["hello", "world"]`.
-   - Mixed scripts: *Слово "code" та термін "test"* -> `5` syllables, flagged: `["code", "test"]`.
-   - Vowel-less acronyms (`КНР та СРСР`) -> `1` syllable, flagged: `["КНР", "СРСР"]`.
+Run from this directory:
 
----
+```sh
+npm install
+npm run typecheck
+npm test
+# or run both checks in sequence
+npm run verify
+```
 
-## 4. Italian Domain Evidence Inventory
+A check is recorded as passed only after the command has actually run and exited successfully. If dependency installation or execution is blocked by the environment, record the exact error and mark the check `NOT RUN` or `BLOCKED`; do not infer success from configuration or a prior report.
 
-The Italian kernel contains two fully audited and populated terminology inventories:
-1. **Music Literacy** (`languages/italian/engineering/music_literacy_terms.md`):
-   - **65 concepts** across 5 categories: Physical Acoustics (10), Musical Notation & Theory (20), Rhythm & Meter (10), Expression & Dynamics (15), Form & Structure (10).
-   - Sourced from *Open Music Theory v2*, *Understanding Basic Music Theory*, and Italian conservatory pedagogical standards.
-   - Mapped provisionally to `AXIS-01` through `AXIS-08`.
-2. **Poetics & Versification** (`languages/italian/engineering/poetics_versification_terms.md`):
-   - **29 concepts** across 5 categories: Poetic Syllabification & Prosody (5), Metrical Line Types (6), Rhyme & Phonic Devices (6), Fixed Stanzaic Forms (6), Text–Music Synthesis (6).
-   - Sourced from Pietro G. Beltrami (*La metrica italiana*), Treccani, and Lorenzo Bianconi.
+The package declares its direct development dependencies in its own `package.json`. The package must not rely on a parent workspace's `node_modules` or type definitions for these checks.
 
----
+## 4. Syllable analyzer evidence scope
 
-## 5. Separation of Cultural Categories from Facts (Ukrainian Kernel)
+`UkOrthographicStrategy` counts Ukrainian vowel letters as an orthographic heuristic. It does not implement phonetic syllabification, lexical stress detection, poetic meter classification, or sung-text alignment.
 
-The evidence audit (`languages/ukrainian/audit/evidence_audit.md`) strictly segregates:
-- **Linguistic Facts**: Phonological inventory, 10 Ukrainian vowel graphemes (`а, е, є, и, і, ї, о, у, ю, я`), open syllable tendency, mobile dynamic stress.
-- **Project Heuristics**: Project-specific design heuristics (OST6, OST9) used in melodic generation models are documented as heuristic assumptions, preventing false generalization as universal Ukrainian cultural truths.
+Its tests can support only the exact input/output behaviors asserted by the test suite. Test counts and successful execution do not establish linguistic completeness. Any unsupported or mixed-script token handling must remain explicit in the output and documentation.
+
+## 5. Knowledge inventory evidence
+
+The Italian inventories currently contain 65 Music Literacy records and 29 Poetics & Versification records. These are inventory counts, not counts of independently verified facts.
+
+A source field is a provenance lead, not proof that the cited source was opened or that it supports the exact wording. Until each record has a traceable review record, avoid describing all 94 records as independently audited or verified. Preserve existing content while marking the evidence status honestly; do not fabricate citations or claim source checks that did not occur.
+
+## 6. Reporting template
+
+For each verification run, record:
+
+- Date and environment (runtime and package manager versions where available).
+- Exact command.
+- Exit status and relevant output.
+- Scope of the claim supported by the result.
+- Known limitations and checks not run.

@@ -11,7 +11,7 @@
 * **German Equivalent:** Schall (physikalisch) / Ton (musikalisch)
 * **Domain Layer:** Physical Acoustics
 * **Provisional AXIS10 Mapping:** `AXIS-04`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** None
 * **Related Concepts:** `MUS-ACOUST-002`, `MUS-ACOUST-004`, `MUS-ACOUST-008`
 * **Source:** Open Music Theory v2 — Introduction to Sound; Understanding Basic Music Theory Sec. 3.1.
@@ -25,7 +25,7 @@
 * **German Equivalent:** Frequenz
 * **Domain Layer:** Physical Acoustics
 * **Provisional AXIS10 Mapping:** `AXIS-04`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-ACOUST-001`
 * **Related Concepts:** `MUS-ACOUST-003`, `MUS-PITCH-001`
 * **Source:** Understanding Basic Music Theory Sec. 3.1.4.
@@ -39,7 +39,7 @@
 * **German Equivalent:** Tonhöhe
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-04`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-ACOUST-001`
 * **Related Concepts:** `MUS-ACOUST-002`, `MUS-NOT-005`
 * **Source:** Open Music Theory v2 — Reading Clefs.
@@ -53,7 +53,7 @@
 * **German Equivalent:** Amplitude
 * **Domain Layer:** Physical Acoustics
 * **Provisional AXIS10 Mapping:** `AXIS-04`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-ACOUST-001`
 * **Related Concepts:** `MUS-ACOUST-005`
 * **Source:** Understanding Basic Music Theory Sec. 3.1.3.
@@ -81,7 +81,7 @@
 * **German Equivalent:** Tondauer
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-04`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-ACOUST-001`
 * **Related Concepts:** `MUS-NOT-005`, `MUS-RHY-001`
 * **Source:** Open Music Theory v2 — Rhythmic Values.
@@ -95,7 +95,7 @@
 * **German Equivalent:** Klangfarbe
 * **Domain Layer:** Physical Acoustics / Expressive
 * **Provisional AXIS10 Mapping:** `AXIS-04`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-ACOUST-001`
 * **Related Concepts:** `MUS-ACOUST-009`, `MUS-INST-002`
 * **Source:** Open Music Theory v2 — Timbre and Orchestration.
@@ -109,7 +109,7 @@
 * **German Equivalent:** Schallwelle
 * **Domain Layer:** Physical Acoustics
 * **Provisional AXIS10 Mapping:** `AXIS-04`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-ACOUST-001`
 * **Related Concepts:** `MUS-ACOUST-002`, `MUS-ACOUST-004`
 * **Source:** Understanding Basic Music Theory Sec. 3.1.2.
@@ -123,7 +123,7 @@
 * **German Equivalent:** Obertöne / Harmonische
 * **Domain Layer:** Physical Acoustics
 * **Provisional AXIS10 Mapping:** `AXIS-04`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-ACOUST-001`
 * **Related Concepts:** `MUS-ACOUST-007`, `MUS-ACOUST-010`
 * **Source:** Understanding Basic Music Theory Sec. 3.3.3.
@@ -137,7 +137,7 @@
 * **German Equivalent:** Grundfrequenz / Grundton
 * **Domain Layer:** Physical Acoustics
 * **Provisional AXIS10 Mapping:** `AXIS-04`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-ACOUST-009`
 * **Related Concepts:** `MUS-ACOUST-002`, `MUS-ACOUST-003`
 * **Source:** Open Music Theory v2 — Timbre & Harmonic Series.
@@ -153,7 +153,7 @@
 * **German Equivalent:** Notensystem
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-08`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** None
 * **Related Concepts:** `MUS-NOT-002`, `MUS-NOT-005`
 * **Source:** Open Music Theory v2 — Pitch Notation.
@@ -167,7 +167,7 @@
 * **German Equivalent:** Notenzeile
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-08`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-NOT-001`
 * **Related Concepts:** `MUS-NOT-007`
 * **Source:** Understanding Basic Music Theory Sec. 1.1.1.
@@ -181,7 +181,7 @@
 * **German Equivalent:** Violinschlüssel / G-Schlüssel
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-08`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-NOT-001`
 * **Related Concepts:** `MUS-NOT-004`
 * **Source:** Open Music Theory v2 — Reading Clefs.
@@ -195,7 +195,7 @@
 * **German Equivalent:** Bassschlüssel / F-Schlüssel
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-08`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-NOT-001`
 * **Related Concepts:** `MUS-NOT-003`
 * **Source:** Open Music Theory v2 — Reading Clefs.
@@ -209,7 +209,7 @@
 * **German Equivalent:** Note
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-08`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-NOT-001`
 * **Related Concepts:** `MUS-NOT-006`, `MUS-ACOUST-003`, `MUS-ACOUST-006`
 * **Source:** Open Music Theory v2 — Pitch Notation.
@@ -223,7 +223,7 @@
 * **German Equivalent:** Pause
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-08`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-NOT-001`
 * **Related Concepts:** `MUS-NOT-005`
 * **Source:** Open Music Theory v2 — Rest Values.
@@ -237,7 +237,7 @@
 * **German Equivalent:** Hilfslinien
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-08`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-NOT-001`
 * **Related Concepts:** `MUS-NOT-002`
 * **Source:** Open Music Theory v2 — Ledger Lines.
@@ -251,7 +251,7 @@
 * **German Equivalent:** Versetzungszeichen / Akzidenz
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-08`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-NOT-005`
 * **Related Concepts:** `MUS-NOT-009`, `MUS-NOT-010`, `MUS-NOT-011`
 * **Source:** Open Music Theory v2 — Accidentals.
@@ -265,7 +265,7 @@
 * **German Equivalent:** Kreuz
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-08`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-NOT-008`
 * **Related Concepts:** `MUS-NOT-010`
 * **Source:** Open Music Theory v2 — Accidentals.
@@ -279,7 +279,7 @@
 * **German Equivalent:** Be / B-Zeichen
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-08`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-NOT-008`
 * **Related Concepts:** `MUS-NOT-009`
 * **Source:** Open Music Theory v2 — Accidentals.
@@ -293,7 +293,7 @@
 * **German Equivalent:** Auflösungszeichen
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-08`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-NOT-008`
 * **Related Concepts:** `MUS-NOT-009`, `MUS-NOT-010`
 * **Source:** Open Music Theory v2 — Accidentals.
@@ -309,7 +309,7 @@
 * **German Equivalent:** Puls / Grundschlag
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-03`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** None
 * **Related Concepts:** `MUS-RHY-002`, `MUS-RHY-003`
 * **Source:** Open Music Theory v2 — Meter & Pulse.
@@ -323,7 +323,7 @@
 * **German Equivalent:** Rhythmus
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-03`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-RHY-001`
 * **Related Concepts:** `MUS-RHY-004`, `MUS-RHY-007`
 * **Source:** Understanding Basic Music Theory Sec. 2.1.
@@ -351,7 +351,7 @@
 * **German Equivalent:** Takt
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-08`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-RHY-001`
 * **Related Concepts:** `MUS-RHY-005`
 * **Source:** Open Music Theory v2 — Simple Meter.
@@ -365,7 +365,7 @@
 * **German Equivalent:** Taktangabe / Taktzeichen
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-08`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-RHY-004`
 * **Related Concepts:** `MUS-RHY-003`
 * **Source:** Open Music Theory v2 — Simple and Compound Meter.
@@ -379,7 +379,7 @@
 * **German Equivalent:** Unterteilung
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-03`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-RHY-001`
 * **Related Concepts:** `MUS-RHY-002`
 * **Source:** Open Music Theory v2 — Subdivision of the Beat.
@@ -393,7 +393,7 @@
 * **German Equivalent:** Synkope
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-03`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-RHY-002`
 * **Related Concepts:** `MUS-RHY-001`
 * **Source:** Open Music Theory v2 — Syncopation.
@@ -409,7 +409,7 @@
 * **German Equivalent:** Halbton
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-04`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** None
 * **Related Concepts:** `MUS-PITCH-002`, `MUS-PITCH-003`
 * **Source:** Open Music Theory v2 — Half Steps & Whole Steps.
@@ -423,7 +423,7 @@
 * **German Equivalent:** Ganzton
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-04`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-PITCH-001`
 * **Related Concepts:** `MUS-PITCH-003`
 * **Source:** Open Music Theory v2 — Half Steps & Whole Steps.
@@ -437,7 +437,7 @@
 * **German Equivalent:** Intervall
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-04`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** None
 * **Related Concepts:** `MUS-PITCH-001`, `MUS-PITCH-004`
 * **Source:** Open Music Theory v2 — Interval Types.
@@ -451,7 +451,7 @@
 * **German Equivalent:** Oktave
 * **Domain Layer:** Physical Acoustics / Theory
 * **Provisional AXIS10 Mapping:** `AXIS-04`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-PITCH-003`
 * **Related Concepts:** `MUS-ACOUST-002`
 * **Source:** Understanding Basic Music Theory Sec. 1.2.
@@ -465,7 +465,7 @@
 * **German Equivalent:** Tonleiter
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-04`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-PITCH-003`
 * **Related Concepts:** `MUS-PITCH-006`, `MUS-PITCH-007`
 * **Source:** Open Music Theory v2 — Scales and Key Signatures.
@@ -479,7 +479,7 @@
 * **German Equivalent:** Dur-Tonleiter
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-04`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-PITCH-005`
 * **Related Concepts:** `MUS-PITCH-007`
 * **Source:** Open Music Theory v2 — Major Scales.
@@ -493,7 +493,7 @@
 * **German Equivalent:** Moll-Tonleiter
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-04`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-PITCH-005`
 * **Related Concepts:** `MUS-PITCH-006`
 * **Source:** Open Music Theory v2 — Minor Scales.
@@ -507,7 +507,7 @@
 * **German Equivalent:** Tonalität / Tonart
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-04`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-PITCH-005`
 * **Related Concepts:** `MUS-PITCH-009`
 * **Source:** Open Music Theory v2 — Key Signatures.
@@ -521,7 +521,7 @@
 * **German Equivalent:** Tonstufen / Skalenstufen
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-04`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-PITCH-005`
 * **Related Concepts:** `MUS-HARM-001`
 * **Source:** Open Music Theory v2 — Scale Degrees.
@@ -537,7 +537,7 @@
 * **German Equivalent:** Melodie
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-03`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** None
 * **Related Concepts:** `MUS-MEL-002`, `MUS-MEL-003`, `MUS-HARM-001`
 * **Source:** Open Music Theory v2 — Melody Construction.
@@ -551,7 +551,7 @@
 * **German Equivalent:** Motiv
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-03`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-MEL-001`
 * **Related Concepts:** `MUS-MEL-003`, `MUS-FORM-002`
 * **Source:** Open Music Theory v2 — Motivic Analysis.
@@ -565,7 +565,7 @@
 * **German Equivalent:** Phrasierung / Phrase
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-03`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-MEL-001`
 * **Related Concepts:** `MUS-FORM-003`
 * **Source:** Open Music Theory v2 — Phrase Structure.
@@ -579,7 +579,7 @@
 * **German Equivalent:** Harmonie / Harmonielehre
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-04`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** None
 * **Related Concepts:** `MUS-HARM-002`, `MUS-HARM-003`
 * **Source:** Open Music Theory v2 — Introduction to Harmony.
@@ -593,7 +593,7 @@
 * **German Equivalent:** Akkord
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-04`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-HARM-001`
 * **Related Concepts:** `MUS-HARM-003`, `MUS-HARM-004`
 * **Source:** Open Music Theory v2 — Triads and Seventh Chords.
@@ -607,7 +607,7 @@
 * **German Equivalent:** Dreiklang
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-04`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-HARM-002`
 * **Related Concepts:** `MUS-HARM-005`
 * **Source:** Open Music Theory v2 — Triads.
@@ -621,7 +621,7 @@
 * **German Equivalent:** Arpeggio / gebrochener Akkord
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-03` / `AXIS-04`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-HARM-002`
 * **Related Concepts:** `MUS-MEL-001`
 * **Source:** Open Music Theory v2 — Accompaniment Patterns.
@@ -635,7 +635,7 @@
 * **German Equivalent:** Umkehrung
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-04`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-HARM-002`
 * **Related Concepts:** `MUS-HARM-003`
 * **Source:** Open Music Theory v2 — Chord Inversions.
@@ -649,7 +649,7 @@
 * **German Equivalent:** Kadenz
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-03` / `AXIS-04`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-HARM-001`
 * **Related Concepts:** `MUS-MEL-003`
 * **Source:** Open Music Theory v2 — Cadences.
@@ -665,7 +665,7 @@
 * **German Equivalent:** Dynamik
 * **Domain Layer:** Expressive / Performance Interpretation
 * **Provisional AXIS10 Mapping:** `AXIS-05`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** None
 * **Related Concepts:** `MUS-ACOUST-005`, `MUS-EXPR-003`, `MUS-EXPR-004`
 * **Source:** Open Music Theory v2 — Dynamics.
@@ -679,7 +679,7 @@
 * **German Equivalent:** Tempobezeichnung
 * **Domain Layer:** Expressive / Performance Interpretation
 * **Provisional AXIS10 Mapping:** `AXIS-05`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-RHY-003`
 * **Related Concepts:** `MUS-RHY-001`
 * **Source:** Open Music Theory v2 — Tempo Markings.
@@ -693,7 +693,7 @@
 * **German Equivalent:** Crescendo / Lauter werden
 * **Domain Layer:** Expressive / Performance Interpretation
 * **Provisional AXIS10 Mapping:** `AXIS-05`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-EXPR-001`
 * **Related Concepts:** `MUS-EXPR-004`
 * **Source:** Open Music Theory v2 — Dynamics & Expression.
@@ -707,7 +707,7 @@
 * **German Equivalent:** Diminuendo / Leiser werden
 * **Domain Layer:** Expressive / Performance Interpretation
 * **Provisional AXIS10 Mapping:** `AXIS-05`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-EXPR-001`
 * **Related Concepts:** `MUS-EXPR-003`
 * **Source:** Open Music Theory v2 — Dynamics & Expression.
@@ -721,7 +721,7 @@
 * **German Equivalent:** Legato / gebunden
 * **Domain Layer:** Expressive / Performance Interpretation
 * **Provisional AXIS10 Mapping:** `AXIS-05`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** None
 * **Related Concepts:** `MUS-EXPR-006`
 * **Source:** Open Music Theory v2 — Articulations.
@@ -735,7 +735,7 @@
 * **German Equivalent:** Staccato / getrennt
 * **Domain Layer:** Expressive / Performance Interpretation
 * **Provisional AXIS10 Mapping:** `AXIS-05`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** None
 * **Related Concepts:** `MUS-EXPR-005`
 * **Source:** Open Music Theory v2 — Articulations.
@@ -749,7 +749,7 @@
 * **German Equivalent:** Fermate
 * **Domain Layer:** Expressive / Performance Interpretation
 * **Provisional AXIS10 Mapping:** `AXIS-05` / `AXIS-08`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** None
 * **Related Concepts:** `MUS-NOT-005`, `MUS-RHY-003`
 * **Source:** Open Music Theory v2 — Other Notation Symbols.
@@ -765,7 +765,7 @@
 * **German Equivalent:** Einleitung / Intro
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-03`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** None
 * **Related Concepts:** `MUS-FORM-002`
 * **Source:** Open Music Theory v2 — Formal Functions.
@@ -779,7 +779,7 @@
 * **German Equivalent:** Thema
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-03`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** None
 * **Related Concepts:** `MUS-MEL-001`, `MUS-FORM-004`
 * **Source:** Open Music Theory v2 — Form and Theme.
@@ -793,7 +793,7 @@
 * **German Equivalent:** Periode
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-03`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-MEL-003`
 * **Related Concepts:** `MUS-HARM-006`
 * **Source:** Open Music Theory v2 — The Period.
@@ -807,7 +807,7 @@
 * **German Equivalent:** Formteil / Abschnitt
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-03`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** None
 * **Related Concepts:** `MUS-FORM-005`
 * **Source:** Open Music Theory v2 — Formal Archetypes.
@@ -821,7 +821,7 @@
 * **German Equivalent:** Refrain
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-03`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-FORM-004`
 * **Related Concepts:** `MUS-FORM-002`
 * **Source:** Open Music Theory v2 — Rondo and Pop Forms.
@@ -835,7 +835,7 @@
 * **German Equivalent:** Coda
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-03`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** None
 * **Related Concepts:** `MUS-HARM-006`
 * **Source:** Open Music Theory v2 — Coda and Codetta.
@@ -851,7 +851,7 @@
 * **German Equivalent:** Instrumentenfamilien
 * **Domain Layer:** Expressive / Performance Interpretation
 * **Provisional AXIS10 Mapping:** `AXIS-04`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** None
 * **Related Concepts:** `MUS-INST-002`
 * **Source:** Open Music Theory v2 — Orchestration.
@@ -865,7 +865,7 @@
 * **German Equivalent:** Register
 * **Domain Layer:** Physical Acoustics / Expressive
 * **Provisional AXIS10 Mapping:** `AXIS-04`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-INST-001`
 * **Related Concepts:** `MUS-INST-003`, `MUS-ACOUST-007`
 * **Source:** Open Music Theory v2 — Vocal & Instrumental Ranges.
@@ -879,7 +879,7 @@
 * **German Equivalent:** Stimmliche Lage / Tessitur
 * **Domain Layer:** Expressive / Performance Interpretation
 * **Provisional AXIS10 Mapping:** `AXIS-04`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-INST-002`
 * **Related Concepts:** `MUS-ACOUST-003`
 * **Source:** Open Music Theory v2 — Vocal Ranges.
@@ -893,7 +893,7 @@
 * **German Equivalent:** Partitur
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-08`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** None
 * **Related Concepts:** `MUS-INST-005`
 * **Source:** Open Music Theory v2 — Reading Scores.
@@ -907,7 +907,7 @@
 * **German Equivalent:** Einzelstimme / Stimme
 * **Domain Layer:** Musical Notation & Theory
 * **Provisional AXIS10 Mapping:** `AXIS-08`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-INST-004`
 * **Related Concepts:** `MUS-INST-006`
 * **Source:** Open Music Theory v2 — Score Layouts.
@@ -921,7 +921,7 @@
 * **German Equivalent:** Besetzung / Ensemble
 * **Domain Layer:** Expressive / Performance Interpretation
 * **Provisional AXIS10 Mapping:** `AXIS-05`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-INST-001`
 * **Related Concepts:** `MUS-INST-004`
 * **Source:** Open Music Theory v2 — Orchestration.

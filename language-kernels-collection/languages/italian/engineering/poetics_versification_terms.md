@@ -11,7 +11,7 @@
 * **German Equivalent:** metrische Silbe
 * **Domain Layer:** Poetics & Versification
 * **Provisional AXIS10 Mapping:** `AXIS-02` (Morphology & Syllabification)
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** None
 * **Related Concepts:** `POE-SYLL-002`, `POE-SYLL-003`
 * **Source:** Pietro G. Beltrami — La metrica italiana; Enciclopedia Treccani.
@@ -25,7 +25,7 @@
 * **German Equivalent:** Synalöphe
 * **Domain Layer:** Poetics & Versification
 * **Provisional AXIS10 Mapping:** `AXIS-02`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `POE-SYLL-001`
 * **Related Concepts:** `POE-SYLL-003`
 * **Source:** Beltrami — La metrica italiana Cap. 2.
@@ -39,7 +39,7 @@
 * **German Equivalent:** Dialöphe / Hiat
 * **Domain Layer:** Poetics & Versification
 * **Provisional AXIS10 Mapping:** `AXIS-02`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `POE-SYLL-001`
 * **Related Concepts:** `POE-SYLL-002`
 * **Source:** Beltrami — La metrica italiana Cap. 2.
@@ -53,7 +53,7 @@
 * **German Equivalent:** Synärese
 * **Domain Layer:** Poetics & Versification
 * **Provisional AXIS10 Mapping:** `AXIS-02`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `POE-SYLL-001`
 * **Related Concepts:** `POE-SYLL-005`
 * **Source:** Beltrami — La metrica italiana Cap. 2.
@@ -67,7 +67,7 @@
 * **German Equivalent:** Diärese
 * **Domain Layer:** Poetics & Versification
 * **Provisional AXIS10 Mapping:** `AXIS-02` / `AXIS-08`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `POE-SYLL-001`
 * **Related Concepts:** `POE-SYLL-004`
 * **Source:** Beltrami — La metrica italiana Cap. 2.
@@ -83,7 +83,7 @@
 * **German Equivalent:** Vers
 * **Domain Layer:** Poetics & Versification
 * **Provisional AXIS10 Mapping:** `AXIS-03`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** None
 * **Related Concepts:** `POE-METR-002`, `POE-METR-003`
 * **Source:** Beltrami — La metrica italiana Cap. 1.
@@ -97,7 +97,7 @@
 * **German Equivalent:** Endekasyllabus / Elfzilbler
 * **Domain Layer:** Poetics & Versification
 * **Provisional AXIS10 Mapping:** `AXIS-03`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `POE-METR-001`
 * **Related Concepts:** `POE-METR-003`, `POE-FORM-002`
 * **Source:** Beltrami — La metrica italiana Cap. 3.
@@ -111,7 +111,7 @@
 * **German Equivalent:** Siebenzilbler
 * **Domain Layer:** Poetics & Versification
 * **Provisional AXIS10 Mapping:** `AXIS-03`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `POE-METR-001`
 * **Related Concepts:** `POE-METR-002`
 * **Source:** Beltrami — La metrica italiana Cap. 3.
@@ -125,7 +125,7 @@
 * **German Equivalent:** Fünfzilbler
 * **Domain Layer:** Poetics & Versification
 * **Provisional AXIS10 Mapping:** `AXIS-03`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `POE-METR-001`
 * **Related Concepts:** `POE-METR-005`
 * **Source:** Beltrami — La metrica italiana Cap. 3.
@@ -139,7 +139,7 @@
 * **German Equivalent:** Achtsilbler
 * **Domain Layer:** Poetics & Versification
 * **Provisional AXIS10 Mapping:** `AXIS-03`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `POE-METR-001`
 * **Related Concepts:** `POE-METR-004`
 * **Source:** Beltrami — La metrica italiana Cap. 3.
@@ -153,7 +153,7 @@
 * **German Equivalent:** Versakzent / Iktus
 * **Domain Layer:** Poetics & Versification
 * **Provisional AXIS10 Mapping:** `AXIS-01` / `AXIS-03`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `POE-METR-001`
 * **Related Concepts:** `MUS-RHY-001`, `SYN-ALIGN-004`
 * **Source:** Beltrami — La metrica italiana Cap. 1.
@@ -169,7 +169,7 @@
 * **German Equivalent:** Reim
 * **Domain Layer:** Poetics & Versification
 * **Provisional AXIS10 Mapping:** `AXIS-01` (Phonetics & Rhyme Alignment)
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** None
 * **Related Concepts:** `POE-RHYM-002`, `POE-RHYM-005`
 * **Source:** Beltrami — La metrica italiana Cap. 4.
@@ -183,7 +183,7 @@
 * **German Equivalent:** Paarreim
 * **Domain Layer:** Poetics & Versification
 * **Provisional AXIS10 Mapping:** `AXIS-01` / `AXIS-03`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `POE-RHYM-001`
 * **Related Concepts:** `POE-RHYM-003`, `POE-RHYM-004`
 * **Source:** Beltrami — La metrica italiana Cap. 4.
@@ -197,7 +197,7 @@
 * **German Equivalent:** Kreuzreim
 * **Domain Layer:** Poetics & Versification
 * **Provisional AXIS10 Mapping:** `AXIS-01` / `AXIS-03`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `POE-RHYM-001`
 * **Related Concepts:** `POE-RHYM-002`
 * **Source:** Beltrami — La metrica italiana Cap. 4.
@@ -211,7 +211,7 @@
 * **German Equivalent:** Umarmender Reim
 * **Domain Layer:** Poetics & Versification
 * **Provisional AXIS10 Mapping:** `AXIS-01` / `AXIS-03`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `POE-RHYM-001`
 * **Related Concepts:** `POE-RHYM-003`
 * **Source:** Beltrami — La metrica italiana Cap. 4.
@@ -225,7 +225,7 @@
 * **German Equivalent:** Assonanz
 * **Domain Layer:** Poetics & Versification
 * **Provisional AXIS10 Mapping:** `AXIS-01`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `POE-RHYM-001`
 * **Related Concepts:** `POE-RHYM-006`
 * **Source:** Beltrami — La metrica italiana Cap. 4.
@@ -239,7 +239,7 @@
 * **German Equivalent:** Alliteration
 * **Domain Layer:** Poetics & Versification
 * **Provisional AXIS10 Mapping:** `AXIS-01` / `AXIS-07` (Strictly Sound-Symbolic when expressive)
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** None
 * **Related Concepts:** `SYN-ALIGN-005`
 * **Source:** Beltrami — La metrica italiana Cap. 5; Treccani.
@@ -255,7 +255,7 @@
 * **German Equivalent:** Strophe
 * **Domain Layer:** Poetics & Versification
 * **Provisional AXIS10 Mapping:** `AXIS-03`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** None
 * **Related Concepts:** `POE-FORM-002`, `POE-FORM-003`
 * **Source:** Beltrami — La metrica italiana Cap. 5.
@@ -269,7 +269,7 @@
 * **German Equivalent:** Terzine
 * **Domain Layer:** Poetics & Versification
 * **Provisional AXIS10 Mapping:** `AXIS-03`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `POE-FORM-001`
 * **Related Concepts:** `POE-METR-002`
 * **Source:** Beltrami — La metrica italiana Cap. 5.
@@ -283,7 +283,7 @@
 * **German Equivalent:** Quartett / Vierzeiler
 * **Domain Layer:** Poetics & Versification
 * **Provisional AXIS10 Mapping:** `AXIS-03`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `POE-FORM-001`
 * **Related Concepts:** `POE-FORM-004`
 * **Source:** Beltrami — La metrica italiana Cap. 5.
@@ -297,7 +297,7 @@
 * **German Equivalent:** Sonett
 * **Domain Layer:** Poetics & Versification
 * **Provisional AXIS10 Mapping:** `AXIS-03`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `POE-FORM-001`
 * **Related Concepts:** `POE-FORM-002`, `POE-FORM-003`
 * **Source:** Beltrami — La metrica italiana Cap. 6.
@@ -311,7 +311,7 @@
 * **German Equivalent:** Kanzone
 * **Domain Layer:** Poetics & Versification
 * **Provisional AXIS10 Mapping:** `AXIS-03`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `POE-FORM-001`
 * **Related Concepts:** `POE-METR-002`, `POE-METR-003`
 * **Source:** Beltrami — La metrica italiana Cap. 6.
@@ -325,7 +325,7 @@
 * **German Equivalent:** Madrigal
 * **Domain Layer:** Poetics & Versification / Vocal Music
 * **Provisional AXIS10 Mapping:** `AXIS-03` / `AXIS-06`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `POE-FORM-001`
 * **Related Concepts:** `SYN-ALIGN-005`, `CUL-GEN-001`
 * **Source:** Beltrami — La metrica italiana Cap. 6; Lorenzo Bianconi — Il Seicento.
@@ -341,7 +341,7 @@
 * **German Equivalent:** Silben-Noten-Zuordnung
 * **Domain Layer:** Text–Music Synthesis
 * **Provisional AXIS10 Mapping:** `AXIS-05` (Pragmatics & Alignment)
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** None
 * **Related Concepts:** `SYN-ALIGN-002`, `SYN-ALIGN-003`
 * **Source:** Open Music Theory v2 — Vocal Writing; Music Alignment Standards.
@@ -355,7 +355,7 @@
 * **German Equivalent:** Melisma / melismatische Führung
 * **Domain Layer:** Text–Music Synthesis
 * **Provisional AXIS10 Mapping:** `AXIS-03` / `AXIS-05`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `SYN-ALIGN-001`
 * **Related Concepts:** `SYN-ALIGN-003`
 * **Source:** Open Music Theory v2 — Vocal Writing.
@@ -369,7 +369,7 @@
 * **German Equivalent:** Syllabik / syllabische Vertonung
 * **Domain Layer:** Text–Music Synthesis
 * **Provisional AXIS10 Mapping:** `AXIS-05`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `SYN-ALIGN-001`
 * **Related Concepts:** `SYN-ALIGN-002`
 * **Source:** Open Music Theory v2 — Vocal Writing.
@@ -383,7 +383,7 @@
 * **German Equivalent:** Sprach-Metrik-Übereinstimmung
 * **Domain Layer:** Text–Music Synthesis
 * **Provisional AXIS10 Mapping:** `AXIS-01` / `AXIS-05`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `POE-METR-006`
 * **Related Concepts:** `MUS-RHY-001`
 * **Source:** Open Music Theory v2 — Setting Text to Rhythm.
@@ -397,7 +397,7 @@
 * **German Equivalent:** Wortmalerei / Madrigalismus
 * **Domain Layer:** Text–Music Synthesis
 * **Provisional AXIS10 Mapping:** `AXIS-07` (Sound Symbolism & Phonaesthemics)
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** None
 * **Related Concepts:** `POE-RHYM-006`, `POE-FORM-006`
 * **Source:** Open Music Theory v2 — Word Painting; Bianconi — Il Seicento.
@@ -411,7 +411,7 @@
 * **German Equivalent:** Text-Musik-Phrasierung
 * **Domain Layer:** Text–Music Synthesis
 * **Provisional AXIS10 Mapping:** `AXIS-03` / `AXIS-05`
-* **Status:** `verified`
+* **Status:** `declared`
 * **Parent Concept:** `MUS-MEL-003`
 * **Related Concepts:** `POE-METR-001`
 * **Source:** Open Music Theory v2 — Vocal Phrasing.

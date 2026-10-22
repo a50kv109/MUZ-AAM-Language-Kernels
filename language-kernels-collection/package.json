@@ -1,11 +1,13 @@
 {
   "name": "aam-language-kernels-collection",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A modular collection of language kernels, shared processing interfaces, language-specific strategies, validation rules, and reproducible tests.",
   "type": "module",
+  "private": true,
   "scripts": {
     "test": "tsx tests/shared/engines/syllable_analyzer.test.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "verify": "npm run typecheck && npm test"
   },
   "keywords": [
     "language-kernels",
@@ -16,5 +18,10 @@
     "prosody"
   ],
   "author": "AAM Architecture Team",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.8.3"
+  }
 }
