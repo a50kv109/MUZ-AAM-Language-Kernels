@@ -1,0 +1,20 @@
+{
+  "name": "aam-language-kernels-collection",
+  "version": "0.1.0",
+  "description": "A modular collection of language kernels, shared processing interfaces, language-specific strategies, validation rules, and reproducible tests.",
+  "type": "module",
+  "scripts": {
+    "test": "tsx tests/shared/engines/syllable_analyzer.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "language-kernels",
+    "linguistics",
+    "poetics",
+    "music-notation",
+    "smufl",
+    "prosody"
+  ],
+  "author": "AAM Architecture Team",
+  "license": "Apache-2.0"
+}

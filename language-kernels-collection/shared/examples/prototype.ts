@@ -30,4 +30,16 @@ const musicReq: InterpretMusicTextRequest = {
   text: 'Allegro con fuoco'
 };
 
-console.log('Contract Contracts Initialized:', { translateReq, localizeReq, musicReq });
+// 4. Analyze Poetry
+const poetryReq: AnalyzePoetryRequest = {
+  operation: 'analyze_poetry',
+  source_language: 'it',
+  text: 'Nel mezzo del cammin di nostra vita'
+};
+
+console.log('Contract Prototype Initialized:', { 
+  translate: translateReq.operation,
+  localizeUI: localizeReq.operation,
+  interpretMusic: musicReq.operation,
+  analyzePoetry: poetryReq.operation 
+});
